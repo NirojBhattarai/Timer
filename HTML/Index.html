@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Project</title>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <header>Counter</header>
+</head>
+
+<body>
+    <div id="container">
+        <p id="hour-label" class="label">Hours</p>
+
+        <p id="minute-label" class="label">Minutes</p>
+
+        <p id="seconds-label" class="label">Seconds</p>
+
+        <input id="hour" type="number" max="99" min="0" value="0" class="time">
+        <p id="p1" class="semicolon">:</p>
+
+        <input id="minute" type="number" max="60" min="0" value="0" class="time">
+        <p id="p2" class="semicolon">:</p>
+
+        <input id="second" type="number" max="60" min="0" value="0" class="time">
+
+        <button id="start" class="btn">Start</button>
+        <button id="reset" class="rst">Reset</button>
+
+
+    </div>
+
+    <audio id=sound src="/Sound/mixkit-alarm-clock-beep-988.wav"></audio>
+    <audio id=sound1 src="/Sound/A.wav"></audio>
+    <script src="/JavaScript/main.js"></script>
+</body>
+
+</html>
